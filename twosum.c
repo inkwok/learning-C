@@ -24,7 +24,7 @@ int* findsum(int target, int* nums, int n) {
 int main(int argc, char* argv[]) {
     char tag[] = "[ main ]: ";
     if(argc < 4) {
-        printf("\n%sUsage is: (TARGET, ELEMENT, ELEMENT...)\n", tag);
+        printf("\n%sUsage is: ./twosum TARGET, ELEMENT, ELEMENT...\n", tag);
         printf("\n%sExiting...\n\n", tag);
         exit(1); 
     }
